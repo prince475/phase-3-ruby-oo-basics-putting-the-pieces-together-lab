@@ -23,7 +23,8 @@ class Shoe
 end
 shoe = Shoe.new("Adidas")
 puts shoe.brand
-shoe.brand = "Nike"
+shoe = Shoe.new("Nike")
+# shoe.brand = "Nike"
 puts shoe.brand
 shoe.color = "red"
 puts shoe.color

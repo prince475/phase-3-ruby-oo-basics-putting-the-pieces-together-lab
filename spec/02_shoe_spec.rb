@@ -1,4 +1,4 @@
-rspecdescribe 'Shoe' do
+describe 'Shoe' do
 
   describe '.new' do
     it 'gets initialized with a brand' do
